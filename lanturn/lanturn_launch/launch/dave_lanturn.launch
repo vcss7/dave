@@ -64,4 +64,13 @@
         </include>
     </group>
 
+    <!-- lanturn robot -->
+    <include file="$(find lanturn_description)/launch/upload_lanturn.launch">
+        <arg name="namespace" value="lanturn"/>
+        <arg name="x" value="4"/>
+        <arg name="y" value="4"/>
+        <arg name="z" value="-93"/>
+        <arg name="yaw" value="-1.8"/>
+    </include>
+
 </launch>
